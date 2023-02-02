@@ -1,1 +1,1 @@
-# Solidity-Research
+# Solidity TER
