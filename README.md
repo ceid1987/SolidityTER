@@ -17,7 +17,7 @@ To deploy and test the smart contracts in this repo, use the [remix IDE](https:/
 
 Once deployed, players can enter the lottery with a set amount of ethereum (or other denominations of eth such as wei).
 
-A winner is then randomly determined by different methods (see ) and the jackpot is transferred to them. 
+A winner is then randomly determined by different methods (see different versions) and the jackpot is transferred to them. 
 
 ## v1
 
