@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solidity Lottery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!--<script src="https://unpkg.com/vue@next"></script>
+    <script src="app.js" defer></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.3/dist/web3.min.js"></script>
+
+</head>
+
+<body>
+    <div id="top-bar">
+        <h1>Lottery</h1>
+    </div>
+    <button id="connect">Connect Wallet</button>
+    <div id="walletInfo" style="display: none;">
+        <p>Address: <span id="address"></span></p>
+        <p>Jackpot: <span id="jackpot"></span> ETH</p>
+        <h2>Enter Lottery</h2>
+        <input type="number" id="amount" placeholder="Amount (ETH)" step="0.01" min="0.01">
+        <button id="enter">Enter</button>
+        <h2>Players</h2>
+        <ul id="players"></ul>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+
+</html>
